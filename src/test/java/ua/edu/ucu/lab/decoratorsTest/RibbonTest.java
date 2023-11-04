@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab.decoratorsTest;
+package ua.edu.ucu.lab.decoratorstest;
 
 import java.util.Random;
 

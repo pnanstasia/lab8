@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab.deliverTest;
+package ua.edu.ucu.lab.delivertest;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

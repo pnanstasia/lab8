@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab.paymentTest;
+package ua.edu.ucu.lab.paymenttest;
 
 import java.util.Random;
 

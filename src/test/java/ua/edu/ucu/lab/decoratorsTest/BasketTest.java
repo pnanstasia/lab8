@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab.decoratorsTest;
+package ua.edu.ucu.lab.decoratorstest;
 import org.junit.jupiter.api.Assertions;
 
 import java.util.Random;

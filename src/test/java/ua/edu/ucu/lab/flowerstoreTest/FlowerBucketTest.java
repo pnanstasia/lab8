@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab.flowerstoreTest;
+package ua.edu.ucu.lab.flowerstoretest;
 
 import java.util.ArrayList;
 import java.util.List;

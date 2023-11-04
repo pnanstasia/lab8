@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab.flowerstoreTest;
+package ua.edu.ucu.lab.flowerstoretest;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
