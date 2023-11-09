@@ -21,4 +21,8 @@ public class FlowerBucket extends Item {
     public void addFlowerPack(FlowerPack flowerpack) {
         flowerPacks.add(flowerpack);
     }
+
+    public String getDescription() {
+        return "Bucket of flowers";
+    }
 }

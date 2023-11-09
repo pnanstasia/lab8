@@ -1,18 +1,17 @@
 package ua.edu.ucu.lab.decorators;
-
-import lombok.AllArgsConstructor;
 import ua.edu.ucu.lab.store.Item;
 
-@AllArgsConstructor
-public class PaperDecorator implements ItemDecorator {
+public class PaperDecorator extends ItemDecorator {
     private final int add = 13;
-    private Item item;
 
-    public double getPrice() {
-        return (add + item.getPrice());
+    public PaperDecorator(Item item) {
+        super(item);
     }
 
-    @Override
+    public double getPrice() {
+        return (add + super.getPrice());
+    }
+
     public String getDescription() {
         return "Decoration with paper";
     }

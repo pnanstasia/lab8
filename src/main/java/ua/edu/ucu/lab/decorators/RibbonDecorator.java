@@ -1,18 +1,18 @@
 package ua.edu.ucu.lab.decorators;
-
-import lombok.AllArgsConstructor;
 import ua.edu.ucu.lab.store.Item;
 
-@AllArgsConstructor
-public class RibbonDecorator implements ItemDecorator {
+public class RibbonDecorator extends ItemDecorator {
     private final int add = 40;
     private Item item;
 
-    public double getPrice() {
-        return (add + item.getPrice());
+    public RibbonDecorator(Item item) {
+        super(item);
     }
 
-    @Override
+    public double getPrice() {
+        return (add + super.getPrice());
+    }
+
     public String getDescription() {
         return "Ribbon decorations";
     }

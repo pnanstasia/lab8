@@ -25,4 +25,8 @@ public class Flower extends Item {
     public String getColor() {
         return color.toString();
     }
+
+    public String getDescription() {
+        return "Flowers!:)";
+    }
 }

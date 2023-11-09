@@ -1,18 +1,17 @@
 package ua.edu.ucu.lab.decorators;
-
-import lombok.AllArgsConstructor;
 import ua.edu.ucu.lab.store.Item;
 
-@AllArgsConstructor
-public class BasketDecorator implements ItemDecorator {
+public class BasketDecorator extends ItemDecorator {
     private final int add = 4;
-    private Item item;
 
-    public double getPrice() {
-        return (add + item.getPrice());
+    public BasketDecorator(Item item) {
+        super(item);
     }
 
-    @Override
+    public double getPrice() {
+        return (add + super.getPrice());
+    }
+
     public String getDescription() {
         return "Decoration with basket";
     }
